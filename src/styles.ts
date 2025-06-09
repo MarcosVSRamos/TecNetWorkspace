@@ -24,6 +24,7 @@ const GlobalCss = createGlobalStyle`
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
+      background-size: cover;
     }
 `
 
