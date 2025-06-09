@@ -1,7 +1,10 @@
-import { Div, Sections } from './styles'
+import { Div, Img, Sections } from './styles'
+
+import logo from '../../assets/images/logo.png'
 
 const Header = () => (
   <Div>
+    <Img src={logo} />
     <Sections>
       <li>
         <a>Cidade</a>

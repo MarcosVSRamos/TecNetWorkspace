@@ -17,7 +17,7 @@ export const Container = styled.div`
 
 export const List = styled.ul`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 16px;
   margin-top: 18px;
   place-items: center;

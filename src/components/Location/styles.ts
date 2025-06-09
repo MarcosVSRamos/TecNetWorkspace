@@ -9,6 +9,7 @@ export const Card = styled.a`
   text-align: center;
   padding-bottom: 1px;
   border-radius: 16px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.7);
   overflow: hidden;
   display: block;
   margin: 8px;
