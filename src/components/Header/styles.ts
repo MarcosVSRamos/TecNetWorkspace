@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { cores } from '../../styles'
 
 export const Div = styled.div`
-  background-color: ${cores.azul}80;
+  background-color: ${cores.cinza};
   height: 60px;
   padding: 12px 38px;
   display: flex;

@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   div {
     h2 {
-      background-color: ${cores.azul}80;
+      background-color: ${cores.cinza}80;
       max-width: 80%;
       margin: 0 auto;
       border-radius: 8px;
