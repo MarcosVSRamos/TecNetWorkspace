@@ -30,7 +30,6 @@ export const Info = styled.a`
   top: 12px;
   background-color: ${cores.cinza}BF;
   border-radius: 8px;
-  z-index: 10;
 `
 
 export const Img = styled.img`
