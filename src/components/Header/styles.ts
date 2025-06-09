@@ -14,6 +14,7 @@ export const Div = styled.div`
 export const Img = styled.img`
   width: 80px;
   max-width: 100%;
+  margin-right: 40px;
 `
 
 export const Sections = styled.ul`
