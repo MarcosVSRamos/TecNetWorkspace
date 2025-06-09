@@ -1,16 +1,23 @@
 import { Div, Img, Sections } from './styles'
 
 import logo from '../../assets/images/logo.png'
+import { Link } from 'react-router-dom'
 
 const Header = () => (
   <Div>
-    <Img src={logo} />
+    <Img>
+      <Link to="/">
+        <img src={logo} />
+      </Link>
+    </Img>
     <Sections>
       <li>
         <a>Cidade</a>
       </li>
       <li>
-        <a>Rural</a>
+        <Link to="/rural">
+          <a>Rural</a>
+        </Link>
       </li>
       <li>
         <a>Distritos</a>

@@ -41,69 +41,49 @@ const rural: Local[] = [
     category: 'rural',
     title: 'Sta. Helena',
     image: fundo_rural
-  }
-]
-
-const destrito: Local[] = [
+  },
   {
     id: 7,
-    category: 'destrito',
-    title: 'Nova América',
-    image: fundo_destrito
+    category: 'rural',
+    title: 'Dona Amélia',
+    image: fundo_rural
   },
   {
     id: 8,
-    category: 'destrito',
-    title: 'Cristalina',
-    image: fundo_destrito
-  }
-]
-
-const cidade: Local[] = [
+    category: 'rural',
+    title: 'São Miguel',
+    image: fundo_rural
+  },
   {
     id: 9,
-    category: 'cidade',
-    title: 'Centro',
-    image: fundo_cidade
+    category: 'rural',
+    title: 'Terra do Boi',
+    image: fundo_rural
   },
   {
     id: 10,
-    category: 'cidade',
-    title: 'Polo Industrial',
-    image: fundo_cidade
+    category: 'rural',
+    title: 'Porco',
+    image: fundo_rural
   },
   {
     id: 11,
-    category: 'cidade',
-    title: 'Cap. Vigário',
-    image: fundo_cidade
+    category: 'rural',
+    title: 'Faz. Palmeiras',
+    image: fundo_rural
   },
   {
     id: 12,
-    category: 'cidade',
-    title: 'Horta',
-    image: fundo_cidade
-  },
-  {
-    id: 13,
-    category: 'cidade',
-    title: 'Planalto',
-    image: fundo_cidade
-  },
-  {
-    id: 14,
-    category: 'cidade',
-    title: 'Galeria',
-    image: fundo_cidade
+    category: 'rural',
+    title: 'Granja Finamoure',
+    image: fundo_rural
   }
 ]
 
-const Home = () => (
+const Rural = () => (
   <>
     <LocationsList locations={rural} title="Rural" category="rural" />
-    <LocationsList locations={destrito} title="Distritos" category="destrito" />
-    <LocationsList locations={cidade} title="Cidade" category="cidade" />
   </>
 )
 
-export default Home
+export default Rural

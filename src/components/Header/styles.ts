@@ -8,13 +8,13 @@ export const Div = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
+  width: 100%;
   display: flex;
 `
-export const Img = styled.img`
-  width: 80px;
-  max-width: 100%;
-  margin-right: 40px;
+export const Img = styled.div`
+  img {
+    max-width: 100%;
+  }
 `
 
 export const Sections = styled.ul`
@@ -23,6 +23,7 @@ export const Sections = styled.ul`
   justify-content: space-between;
   font-size: 18px;
   font-weight: bold;
+  margin-left: 12px;
 
   li {
     margin: 0 8px;

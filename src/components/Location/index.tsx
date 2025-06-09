@@ -1,4 +1,4 @@
-import { Card, Img } from './styles'
+import { Card, Img, Info } from './styles'
 
 type Props = {
   title: string
@@ -9,6 +9,7 @@ type Props = {
 const Location = ({ title, image }: Props) => (
   <li>
     <Card href="#">
+      <Info href="#">Info</Info>
       <Img src={image} alt={title} />
       <h4>{title}</h4>
     </Card>
