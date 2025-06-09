@@ -4,7 +4,7 @@ import { cores } from '../../styles'
 export const Card = styled.a`
   background-color: ${cores.verde};
   border: solid 1px ${cores.verde};
-  width: 120px;
+  width: 140px;
   max-width: 100%;
   text-align: center;
   padding-bottom: 1px;
@@ -17,12 +17,12 @@ export const Card = styled.a`
   h4 {
     font-size: 16px;
     font-weight: bold;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
     color: ${cores.cinza};
   }
 `
 
 export const Img = styled.img`
-  width: 120px;
+  width: 140px;
   width: 100%;
 `
