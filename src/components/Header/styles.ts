@@ -2,21 +2,25 @@ import styled from 'styled-components'
 import { cores } from '../../styles'
 
 export const Div = styled.div`
-  background-color: ${cores.cinza}BF;
+  background-color: ${cores.azul}80;
+  height: 60px;
   padding: 12px 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 export const Sections = styled.ul`
   display: flex;
   text-align: center;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
-  color: ${cores.branco};
 
   li {
-    border: solid 2px ${cores.azul};
+    border: solid 2px ${cores.cinza};
     border-radius: 8px;
-    width: 80px;
+    margin: 0 4px;
+    width: 110px;
   }
 `
