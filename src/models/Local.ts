@@ -2,13 +2,13 @@ class Local {
   id: number
   title: string
   image: string
-  category?: 'cidade' | 'rural' | 'destrito'
+  category?: 'cidade' | 'rural' | 'distrito'
 
   constructor(
     id: number,
     title: string,
     image: string,
-    category?: 'cidade' | 'rural' | 'destrito'
+    category?: 'cidade' | 'rural' | 'distrito'
   ) {
     this.id = id
     this.title = title

@@ -14,6 +14,7 @@ export const Div = styled.div`
 export const Img = styled.div`
   img {
     max-width: 100%;
+    border-radius: 8px;
   }
 `
 

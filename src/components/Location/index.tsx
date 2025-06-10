@@ -2,7 +2,7 @@ import { Card, Img, Info } from './styles'
 
 type Props = {
   title: string
-  category?: 'cidade' | 'rural' | 'destrito'
+  category?: 'cidade' | 'rural' | 'distrito'
   image: string
 }
 

@@ -1,6 +1,6 @@
 import { Div, Img, Sections } from './styles'
 
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/logo_dois.jpg'
 import { Link } from 'react-router-dom'
 
 const Header = () => (
@@ -12,7 +12,9 @@ const Header = () => (
     </Img>
     <Sections>
       <li>
-        <a>Cidade</a>
+        <Link to="/cidade">
+          <a>Cidade</a>
+        </Link>
       </li>
       <li>
         <Link to="/rural">
@@ -20,7 +22,9 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <a>Distritos</a>
+        <Link to="/distrito">
+          <a>Distritos</a>
+        </Link>
       </li>
     </Sections>
   </Div>

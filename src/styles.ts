@@ -22,9 +22,8 @@ const GlobalCss = createGlobalStyle`
     body{
       background-image: url(${fundo});
       background-repeat: no-repeat;
-      background-position: center;
-      background-attachment: fixed;
       background-size: cover;
+      background-attachment: fixed;
     }
 `
 

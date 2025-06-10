@@ -1,107 +1,10 @@
-import Local from '../../models/Local'
 import LocationsList from '../../components/LocationsList'
-
-import fundo_rural from '../../assets/images/paisagem_rural.jpg'
-import fundo_destrito from '../../assets/images/fundo_destrito.jpg'
-import fundo_cidade from '../../assets/images/fundo_cidade.jpg'
-
-const rural: Local[] = [
-  {
-    id: 1,
-    category: 'rural',
-    title: 'Sta. Claudina',
-    image: fundo_rural
-  },
-  {
-    id: 2,
-    category: 'rural',
-    title: 'Conchita',
-    image: fundo_rural
-  },
-  {
-    id: 3,
-    category: 'rural',
-    title: 'Faz. LV',
-    image: fundo_rural
-  },
-  {
-    id: 4,
-    category: 'rural',
-    title: 'Fonseca',
-    image: fundo_rural
-  },
-  {
-    id: 5,
-    category: 'rural',
-    title: 'Frenham',
-    image: fundo_rural
-  },
-  {
-    id: 6,
-    category: 'rural',
-    title: 'Sta. Helena',
-    image: fundo_rural
-  }
-]
-
-const destrito: Local[] = [
-  {
-    id: 7,
-    category: 'destrito',
-    title: 'Nova América',
-    image: fundo_destrito
-  },
-  {
-    id: 8,
-    category: 'destrito',
-    title: 'Cristalina',
-    image: fundo_destrito
-  }
-]
-
-const cidade: Local[] = [
-  {
-    id: 9,
-    category: 'cidade',
-    title: 'Centro',
-    image: fundo_cidade
-  },
-  {
-    id: 10,
-    category: 'cidade',
-    title: 'Polo Industrial',
-    image: fundo_cidade
-  },
-  {
-    id: 11,
-    category: 'cidade',
-    title: 'Cap. Vigário',
-    image: fundo_cidade
-  },
-  {
-    id: 12,
-    category: 'cidade',
-    title: 'Horta',
-    image: fundo_cidade
-  },
-  {
-    id: 13,
-    category: 'cidade',
-    title: 'Planalto',
-    image: fundo_cidade
-  },
-  {
-    id: 14,
-    category: 'cidade',
-    title: 'Galeria',
-    image: fundo_cidade
-  }
-]
+import { cidade, distrito, rural } from '../api'
 
 const Home = () => (
   <>
     <LocationsList locations={rural} title="Rural" category="rural" />
-    <LocationsList locations={destrito} title="Distritos" category="destrito" />
+    <LocationsList locations={distrito} title="Distritos" category="destrito" />
     <LocationsList locations={cidade} title="Cidade" category="cidade" />
   </>
 )
