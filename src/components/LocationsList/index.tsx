@@ -19,7 +19,7 @@ const LocationsList: React.FC<Props> = ({ title, category, locations }) => (
             category={location.category}
             title={location.title}
             image={location.image}
-            link={location.link}
+            link={location.link || ''}
           />
         ))}
       </List>
