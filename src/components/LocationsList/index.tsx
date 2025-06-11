@@ -4,7 +4,7 @@ import { Container, List } from './styles'
 
 export type Props = {
   title: string
-  category?: 'cidade' | 'rural' | 'destrito'
+  category?: 'cidade' | 'rural' | 'distrito'
   locations: Local[]
 }
 
@@ -19,6 +19,7 @@ const LocationsList: React.FC<Props> = ({ title, category, locations }) => (
             category={location.category}
             title={location.title}
             image={location.image}
+            link={location.link}
           />
         ))}
       </List>

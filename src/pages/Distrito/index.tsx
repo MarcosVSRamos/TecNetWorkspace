@@ -3,7 +3,7 @@ import { distrito } from '../api'
 
 const Distrito = () => (
   <>
-    <LocationsList locations={distrito} title="Distrito" category="destrito" />
+    <LocationsList locations={distrito} title="Distrito" category="distrito" />
   </>
 )
 

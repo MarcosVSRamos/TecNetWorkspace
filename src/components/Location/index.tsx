@@ -4,11 +4,12 @@ type Props = {
   title: string
   category?: 'cidade' | 'rural' | 'distrito'
   image: string
+  link: string
 }
 
-const Location = ({ title, image }: Props) => (
+const Location = ({ title, image, link }: Props) => (
   <li>
-    <Card href="#">
+    <Card href={link}>
       <Info href="#">Info</Info>
       <Img src={image} alt={title} />
       <h4>{title}</h4>
