@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 import fundo from './assets/images/fundo.jpg'
 
 export const cores = {
@@ -19,12 +19,24 @@ const GlobalCss = createGlobalStyle`
     text-decoration: none;
     color: ${cores.branco};
   }
-    body{
-      background-image: url(${fundo});
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-    }
+`
+
+export const Fundo = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: -20px;
+  background-image: url(${fundo});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+`
+
+export const Div = styled.div`
+  position: relative;
+  z-index: 1;
 `
 
 export default GlobalCss
