@@ -26,12 +26,12 @@ export const Fundo = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  padding-top: -20px;
+  height: calc(var(--vh, 1vh) * 100);
   background-image: url(${fundo});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  z-index: -1;
 `
 
 export const Div = styled.div`
