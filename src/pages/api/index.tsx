@@ -318,7 +318,7 @@ export const rural: Local[] = [
   {
     id: 47,
     category: 'rural',
-    title: 'Américo',
+    title: 'Zé Vital',
     image: fundo_rural,
     link: 'https://maps.app.goo.gl/1ebcgoBPbj2SQg8A8'
   },
@@ -356,6 +356,13 @@ export const rural: Local[] = [
     title: 'Carreteira Lins',
     image: fundo_rural,
     link: 'https://maps.app.goo.gl/YVnHB2Z2WFgrzhfC8'
+  },
+  {
+    id: 53,
+    category: 'rural',
+    title: 'Jatoba',
+    image: fundo_rural,
+    link: 'https://maps.app.goo.gl/izoF5Hw1Ym9Pd5NF9'
   }
 ]
 

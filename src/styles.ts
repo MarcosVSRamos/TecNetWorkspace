@@ -25,8 +25,9 @@ export const Fundo = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: calc(var(--vh, 1vh) * 100);
+  width: 100vw;
+  height: 100vh;
+  marging-top: -20px;
   background-image: url(${fundo});
   background-repeat: no-repeat;
   background-size: cover;
