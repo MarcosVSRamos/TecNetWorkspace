@@ -29,8 +29,8 @@ export const Form = styled.form`
     text-align: center;
     border: none;
     border-radius: 4px;
-    color: ${cores.branco};
     height: 24px;
+    color: #000;
   }
 
   button {
