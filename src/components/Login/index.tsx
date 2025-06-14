@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Navigate } from 'react-router-dom'
 import { useAuth } from '../AuthContext'
 import { Div, Form } from './styles'
 import logo from '../../assets/images/logo_dois.jpg'
@@ -8,13 +8,21 @@ const Login = () => {
   const [nome, setNome] = useState('')
   const [senha, setSenha] = useState('')
   const navigate = useNavigate()
-  const { login } = useAuth()
+  const { login, isAuthenticated } = useAuth()
+
+  if (isAuthenticated) {
+    return <Navigate to="/home" />
+  }
 
   const loginSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     if (nome === 'ubnt' && senha === 'tec2129') {
-      login()
-      navigate('/home')
+      const sucesso = login(senha) // login deve retornar true/false
+      if (sucesso) {
+        navigate('/home')
+      } else {
+        alert('Erro ao autenticar.')
+      }
     } else {
       alert('Usuário ou senha inválidos')
     }

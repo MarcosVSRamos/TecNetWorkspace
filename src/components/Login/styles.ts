@@ -3,7 +3,7 @@ import { cores } from '../../styles'
 
 export const Div = styled.div`
   text-align: center;
-  width: 180px;
+  width: 240px;
   max-width: 100%;
   margin: 232px auto;
   padding: 16px;
@@ -19,8 +19,9 @@ export const Div = styled.div`
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
+  margin: 16px auto 0;
   gap: 10px;
-  width: 180px;
+  width: 140px;
   max-width: 100%;
   margin-top: 16px;
 
@@ -29,6 +30,7 @@ export const Form = styled.form`
     border: none;
     border-radius: 4px;
     color: ${cores.branco};
+    height: 24px;
   }
 
   button {
