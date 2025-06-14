@@ -1,11 +1,16 @@
+// App.tsx
+
 import { useEffect } from 'react'
 import { BrowserRouter } from 'react-router-dom'
+import { AuthProvider, useAuth } from './components/AuthContext'
 
 import GlobalCss, { Div, Fundo } from './styles'
 import Header from './components/Header'
 import Rotas from './routes'
 
-function App() {
+function AppContent() {
+  const { isAuthenticated } = useAuth()
+
   useEffect(() => {
     const handleResize = () => {
       const vh = window.innerHeight * 0.01
@@ -19,14 +24,25 @@ function App() {
       window.removeEventListener('resize', handleResize)
     }
   }, [])
+
   return (
-    <BrowserRouter>
+    <>
       <GlobalCss />
       <Fundo />
       <Div>
-        <Header />
+        {isAuthenticated && <Header />}
         <Rotas />
       </Div>
+    </>
+  )
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AuthProvider>
+        <AppContent />
+      </AuthProvider>
     </BrowserRouter>
   )
 }
