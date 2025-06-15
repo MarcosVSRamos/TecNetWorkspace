@@ -11,7 +11,7 @@ const Login = () => {
   const { login, isAuthenticated } = useAuth()
 
   if (isAuthenticated) {
-    return <Navigate to="/home" />
+    return <Navigate to="/menu" />
   }
 
   const loginSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -19,7 +19,7 @@ const Login = () => {
     if (nome === 'ubnt' && senha === 'tec2129') {
       const sucesso = login(senha) // login deve retornar true/false
       if (sucesso) {
-        navigate('/home')
+        navigate('/menu')
       } else {
         alert('Erro ao autenticar.')
       }

@@ -5,7 +5,6 @@ import { BrowserRouter } from 'react-router-dom'
 import { AuthProvider, useAuth } from './components/AuthContext'
 
 import GlobalCss, { Div, Fundo } from './styles'
-import Header from './components/Header'
 import Rotas from './routes'
 
 function AppContent() {
@@ -30,7 +29,6 @@ function AppContent() {
       <GlobalCss />
       <Fundo />
       <Div>
-        {isAuthenticated && <Header />}
         <Rotas />
       </Div>
     </>
