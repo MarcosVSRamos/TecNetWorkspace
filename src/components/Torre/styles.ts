@@ -9,6 +9,7 @@ export const Div = styled.div`
     margin-top: 22px;
     margin-bottom: 8px;
     background-color: ${cores.cinza}BF;
+    color: #fff;
     padding-top: 6px;
     padding-bottom: 8px;
   }
@@ -19,7 +20,7 @@ export const ItensList = styled.li`
 
   a {
     display: block;
-    color: ${cores.verde};
+    color: ${cores.branco};
     background-color: ${cores.cinza}BF;
     width: 240px;
     max-width: 100%;

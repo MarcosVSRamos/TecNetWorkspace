@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { ListaTorres } from '../ListaTorres'
 import { torres } from '../../pages/api'
 import logo from '../../assets/images/logo_dois.jpg'
-import { DivHeader, HeaderLinks, Img } from './styles'
+import { DivHeader, HeaderLinks, Img, Lista } from './styles'
 
 const Backup = () => (
   <div>
@@ -18,11 +18,11 @@ const Backup = () => (
       </HeaderLinks>
     </DivHeader>
 
-    <div className="p-8 space-y-16">
+    <Lista>
       <ListaTorres torres={torres} location="cidade" />
       <ListaTorres torres={torres} location="rural" />
       <ListaTorres torres={torres} location="distrito" />
-    </div>
+    </Lista>
   </div>
 )
 

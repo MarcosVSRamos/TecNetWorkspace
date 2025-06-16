@@ -15,6 +15,10 @@ export const DivHeader = styled.div`
   z-index: 1000;
 `
 
+export const Lista = styled.div`
+  margin-top: 68px;
+`
+
 export const HeaderLinks = styled.div`
   display: flex;
   gap: 12px;
