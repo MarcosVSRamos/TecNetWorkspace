@@ -10,6 +10,10 @@ export const cores = {
 }
 
 const GlobalCss = createGlobalStyle`
+html {
+    scroll-behavior: smooth;
+  }
+
   *{
     margin: 0;
     padding: 0;

@@ -1,8 +1,8 @@
-import HeaderBackup from '../../components/HeaderBackup'
+import PageBackup from '../../components/Backup'
 
 const Backups = () => (
   <>
-    <HeaderBackup />
+    <PageBackup />
   </>
 )
 

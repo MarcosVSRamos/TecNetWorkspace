@@ -2,6 +2,7 @@ import Local from '../../models/Local'
 import fundo_cidade from '../../assets/images/fundo_cidade.jpg'
 import fundo_rural from '../../assets/images/paisagem_rural.jpg'
 import fundo_distrito from '../../assets/images/fundo_distrito.jpg'
+import { Torre as TorreType } from '../../models/Torre'
 
 export const cidade: Local[] = [
   {
@@ -380,5 +381,82 @@ export const distrito: Local[] = [
     title: 'Cristalina',
     image: fundo_distrito,
     link: 'https://maps.app.goo.gl/Fvj5zS6mpAq9z6M8A'
+  }
+]
+
+export const torres: TorreType[] = [
+  {
+    id: '1',
+    nome: 'Centro',
+    location: 'cidade',
+    equipamentos: [
+      { titulo: 'Painel AC 1', link: '/backups/roteador-a.zip' },
+      { titulo: 'Painel AC 2', link: '/backups/roteador-a.zip' },
+      { titulo: 'Painel AC 3', link: '/backups/roteador-a.zip' },
+      { titulo: 'Painel AC 4', link: '/backups/roteador-a.zip' },
+      { titulo: 'Painel AC 5', link: '/backups/roteador-a.zip' },
+      { titulo: 'Switch A', link: '/backups/switch-a.zip' }
+    ]
+  },
+  {
+    id: '2',
+    nome: 'Planalto',
+    location: 'cidade',
+    equipamentos: [
+      { titulo: 'Painel AC 1', link: '/backups/roteador-a.zip' },
+      { titulo: 'Painel AC 2', link: '/backups/roteador-a.zip' },
+      { titulo: 'Painel AC 3', link: '/backups/roteador-a.zip' },
+      { titulo: 'Painel AC 4', link: '/backups/roteador-a.zip' },
+      { titulo: 'Painel AC 5', link: '/backups/roteador-a.zip' },
+      { titulo: 'Switch A', link: '/backups/switch-a.zip' }
+    ]
+  },
+  {
+    id: '3',
+    nome: 'Galeria',
+    location: 'cidade',
+    equipamentos: [{ titulo: 'Roteador B', link: '/backups/roteador-b.zip' }]
+  },
+  {
+    id: '4',
+    nome: 'Cap. Vigário',
+    location: 'cidade',
+    equipamentos: [{ titulo: 'Roteador B', link: '/backups/roteador-b.zip' }]
+  },
+  {
+    id: '5',
+    nome: 'Polo Industrial',
+    location: 'cidade',
+    equipamentos: [{ titulo: 'Roteador B', link: '/backups/roteador-b.zip' }]
+  },
+  {
+    id: '6',
+    nome: 'Adonai',
+    location: 'cidade',
+    equipamentos: [{ titulo: 'Roteador B', link: '/backups/roteador-b.zip' }]
+  },
+  {
+    id: '7',
+    nome: 'Graos de Ouro',
+    location: 'cidade',
+    equipamentos: [{ titulo: 'Roteador B', link: '/backups/roteador-b.zip' }]
+  },
+  {
+    id: '8',
+    nome: 'Campo Alto',
+    location: 'cidade',
+    equipamentos: [{ titulo: 'Roteador B', link: '/backups/roteador-b.zip' }]
+  },
+  {
+    id: '9',
+    nome: 'Aprazível',
+    location: 'cidade',
+    equipamentos: [{ titulo: 'Roteador B', link: '/backups/roteador-b.zip' }]
+  },
+  {
+    id: '10',
+    nome: 'Horta',
+    location: 'cidade',
+    equipamentos: [{ titulo: 'Roteador B', link: '/backups/roteador-b.zip' }]
   }
 ]

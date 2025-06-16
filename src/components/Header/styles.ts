@@ -13,8 +13,11 @@ export const Div = styled.div`
 `
 export const Img = styled.div`
   img {
+    width: 120px;
+    height: 40px;
     max-width: 100%;
     border-radius: 8px;
+    margin-right: 32px;
   }
 `
 
@@ -22,11 +25,11 @@ export const Sections = styled.ul`
   display: flex;
   text-align: center;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   margin-left: 12px;
 
   li {
-    margin: 0 8px;
+    margin: 0 4px;
   }
 `

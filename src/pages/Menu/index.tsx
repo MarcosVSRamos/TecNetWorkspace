@@ -1,4 +1,4 @@
-import HeaderBackup from '../../components/HeaderBackup'
+import HeaderBackup from '../../components/Backup'
 import Menu from '../../components/Menu'
 
 const MenuInicial = () => (
