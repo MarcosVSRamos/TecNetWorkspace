@@ -11,7 +11,9 @@ export const Torre = ({ torre }: Props) => (
     <ul>
       {torre.equipamentos.map((equip, index) => (
         <ItensList key={index}>
-          <a href={equip.link}>{equip.titulo}</a>
+          <a href={equip.link} download>
+            {equip.titulo}
+          </a>
         </ItensList>
       ))}
     </ul>
