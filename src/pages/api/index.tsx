@@ -396,107 +396,107 @@ export const torres: TorreType[] = [
       },
       {
         titulo: 'LiteAP GPS - AC 1 (10.100.21.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1RcBwGbgF6gpMFr6NQ7R4p5FlU0VGl5Z-'
+        link: '/backup_torres/centro/LiteAP_GPS_AC_1.cfg'
       },
       {
         titulo: 'LiteAP GPS - AC 2 (10.100.22.2)',
-        link: 'https://drive.google.com/uc?export=download&id=11CAcLlGXdg3f4fDmawbKpBfKrYu0TVDj'
+        link: '/backup_torres/centro/LiteAP_GPS_AC_2.cfg'
       },
       {
         titulo: 'LiteAP GPS - AC 3 (10.100.23.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1_g4ju_gZvr6SiwWdVASoKayJddGwDUEO'
+        link: '/backup_torres/centro/LiteAP_GPS_AC_3.cfg'
       },
       {
         titulo: 'LiteAP GPS - AC 4 (10.100.24.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1kkPO_hPa8q9x0psMrjUUY7vbMogrUwjr'
+        link: '/backup_torres/centro/LiteAP_GPS_AC_4.cfg'
       },
       {
         titulo: 'PTP - CHAMA 1 (10.254.7.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1NS43HjkwsFQRwo4subeO2GL7B6USkDOR'
+        link: '/backup_torres/centro/PTP_CHAMA_1.cfg'
       },
       {
         titulo: 'PTP - Faz Canecao 1 (10.254.13.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1JhOKPAM8uaFSaOgHZoOxiHa8Qb6wxYSl'
+        link: '/backup_torres/centro/PTP_Faz_Canecao_1.cfg'
       },
       {
         titulo: 'PTP - Graos De Ouro 1 (10.254.3.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1D4a0NI3NsYmzm3Chqp0u918oumlOHHVW'
+        link: '/backup_torres/centro/PTP - Graos_De_Ouro_1.cfg'
       },
       {
         titulo: 'PTP - Horta 1 (10.254.5.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1aaIPYR5GZA6mjgkJmQ0Z8ba1xlukY-hF'
+        link: '/backup_torres/centro/PTP_Horta_1.cfg'
       },
       {
         titulo: 'PTP Campo Alto 1 (10.254.2.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1VLPyZcRA1KPbMq3h8DGaQUOQaDMuIXPf'
+        link: '/backup_torres/centro/PTP_Campo_Alto_1.cfg'
       },
       {
         titulo: 'PTP Polo Industrial 1 (10.253.253.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1CCwJcpBbYj85ufcmBcOf--k07H6xYwH_'
+        link: '/backup_torres/centro/PTP_Polo_Industrial_1.cfg'
       },
       {
         titulo: 'PTP Tec Net Planalto 1 (10.254.10.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1rnMnFA8nutfGtFk29VAzIh0c7y6PUx8X'
+        link: '/backup_torres/centro/PTP_Tec_Net_Planalto_1.cfg'
       },
       {
         titulo: 'Tec Net - Setor 1 (10.100.11.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1j3frahxgu-hKTe5pw6O_topu3crjj4E9'
+        link: '/backup_torres/centro/Tec_Net_Setor_1.cfg'
       },
       {
         titulo: 'Tec Net - Setor 2 (10.100.12.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1f6EaFEpBM2j15SWRX7Q18tRFzV_8DIWj'
+        link: '/backup_torres/centro/Tec_Net_Setor_2.cfg'
       },
       {
         titulo: 'Tec Net - Setor 3 (10.100.13.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1Nbqm3h-x5G6p5lRJqjtCKZ5YDNWkaIJn'
+        link: '/backup_torres/centro/Tec_Net_Setor_3.cfg'
       },
       {
         titulo: 'Tec Net - Setor 4 (10.100.14.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1k2J-zCLtvFd-aW7wwxNCt9btQM22Qro4'
+        link: '/backup_torres/centro/Tec_Net_Setor_4.cfg'
       },
       {
         titulo: 'Tec Net Ney 1 (10.254.6.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1XoSL19W4-ojbFQ2qcTCEIyyyKrp-W9f2'
+        link: '/backup_torres/centro/Tec_Net_Ney_1.cfg'
       },
       {
         titulo: 'Tec Net PTP Residencial 1 (10.254.12.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1Qud_kqdN-vlf5XYVrgkbgPq91-FFz-NF'
+        link: '/backup_torres/centro/Tec_Net_PTP_Residencial_1.cfg'
       },
       {
         titulo: 'TEC-NET-PH-01 (10.100.1.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1hwU5Ubr-13g4bILWiXwBX3Nyhofsc-W4'
+        link: '/backup_torres/centro/TEC-NET-PH-01.cfg'
       },
       {
         titulo: 'TEC-NET-PH-02 (10.100.2.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1p97vsnQxyUdw_tF3mZ5wbBl7lomYfDvJ'
+        link: '/backup_torres/centro/TEC-NET-PH-02.cfg'
       },
       {
         titulo: 'TEC-NET-PH-03 (10.100.3.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1Ba7Fb6m2miXzkKKgRKZI3McQMxE5hr5K'
+        link: '/backup_torres/centro/TEC-NET-PH-03.cfg'
       },
       {
         titulo: 'TEC-NET-PH-04 (10.100.4.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1dG3H77_zuqH9ZC-DsOPmvRJZwDN3_a3S'
+        link: '/backup_torres/centro/TEC-NET-PH-04.cfg'
       },
       {
         titulo: 'TEC-NET-PH-05 (10.100.5.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1H4A45ZXPrvcddDAyBbvGd281aa220-Ne'
+        link: '/backup_torres/centro/TEC-NET-PH-05.cfg'
       },
       {
         titulo: 'TEC-NET-PH-06 (10.100.6.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1DzO513eHyg7FknRIWNQACrhmHf9GbfDu'
+        link: '/backup_torres/centro/TEC-NET-PH-06.cfg'
       },
       {
         titulo: 'TEC-NET-PH-08 (10.100.8.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1oM97a6EX_cODMzsPBGeVk69tdDt-YJSz'
+        link: '/backup_torres/centro/TEC-NET-PH-08.cfg'
       },
       {
         titulo: 'TEC-NET-PH-09 (10.100.9.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1kYq5JrzCb7M0vgVIdocWUcm430G5_Y5-'
+        link: '/backup_torres/centro/TEC-NET-PH-09.cfg'
       },
       {
         titulo: 'TEC-NET-PH-10 (10.100.10.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1j8-qdfPtk0gF-PpbzWXUkSTc3VfHUKqr'
+        link: '/backup_torres/centro/TEC-NET-PH-10.cfg'
       }
     ]
   },
