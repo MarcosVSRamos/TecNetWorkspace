@@ -392,7 +392,7 @@ export const torres: TorreType[] = [
     equipamentos: [
       {
         titulo: 'PTP Nova America 1 (10.253.255.2)',
-        link: 'https://drive.google.com/uc?export=download&id=1oESzw5zA91637KrQcumr-cv4ltwM5UNC'
+        link: '/backup_torres/centro/Nova_America_1.cfg'
       },
       {
         titulo: 'LiteAP GPS - AC 1 (10.100.21.2)',
